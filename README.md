@@ -1,5 +1,5 @@
 # Candidate Primer Finder
-Basic script to identify primer candidates from a gene sequence.
+Basic script to identify PCR primer candidates from a gene sequence.
 
 Use: modify the string variables "exon1" and "exon2" with the FASTA sequence for your gene of interest, in uppercase and with no whitespaces. The forward primer candidates are chosen in exon 1 and the reverse primer candidates are chosen in exon 2. Run the script with your favourite Python service. It will print out candidate primer sequences in the direction 5'-3'. 
 
